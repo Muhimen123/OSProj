@@ -111,7 +111,6 @@ class Flowchart(Chart):
             tmp_count += 1
             print(f"{tmp_count}. {node.name}")
 
-
     def show_all_edges(self):
         for edge in self.edges:
             print(f"{edge.start} - {edge.end}")
